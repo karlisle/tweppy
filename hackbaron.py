@@ -82,7 +82,7 @@ class Bot():
 
 
     def sleep(se):
-    	time.sleep(0.5)
+    	time.sleep(900.0)
 
     	pass
 
