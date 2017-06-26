@@ -13,10 +13,10 @@ class Bot():
     # Realizar la conexin con la API de twitter
     def accesAPI(self, tweet):
         # Coloca dentro de las comillas tus claves...
-        CONSUMER_KEY = '5HggmQuK7JsO7BjjlheOUItXN'
-        CONSUMER_SECRET = 'buBeAmY1xhvflnQluVu95rzsFT9Sd8V9U8KzM2DUDkjbB6Jk2A'
-        ACCESS_KEY = '958805551-I21UhGTtz3DMYd4MYzyzTwyy9EPzxJRkRfQL141O'
-        ACCESS_SECRET = 'NutAa8lTn9yrLXByq1Csg1q0K3uKdBFqhuFAuYbKKyjXc'
+        CONSUMER_KEY = ''
+        CONSUMER_SECRET = ''
+        ACCESS_KEY = ''
+        ACCESS_SECRET = ''
 
         # En esta parte nos identifica para poder realizar operaciones
         auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
